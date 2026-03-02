@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 20px;
+    border-color: red;
+    border-style: solid;
+    margin: 30px;
+}
+
+.container textarea {
+    margin: 10px 60px 10px 45px;
+    border-color: blue;
+    outline: none;
+    border-radius: 20px;
+    padding: 25px;
+    background: transparent;
+    border-style: solid;
+    box-shadow: 0 0 8px rgba(113,158,206,0.6);
+}
+
+textarea:focus {
+    outline: none;
+    border-color: red;
+}
+
+::placeholder {
+    color: blue;
+    opacity: 1;
+}
