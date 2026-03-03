@@ -3,7 +3,7 @@ h1 {
     background-color: transparent;
     padding: 15px;
     border-radius: 20px;
-    border-color: red;
+    border-color: green;
     border-style: solid;
     margin: 30px;
 }
@@ -21,10 +21,14 @@ h1 {
 
 textarea:focus {
     outline: none;
-    border-color: red;
+    border-color: transparent;
 }
 
 ::placeholder {
     color: blue;
     opacity: 1;
+}
+
+p{
+	color: red;
 }
