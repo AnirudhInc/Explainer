@@ -1,10 +1,5 @@
 h1 {
     color: black;
-    background-color: transparent;
-    padding: 15px;
-    border-radius: 20px;
-    border-color: green;
-    border-style: solid;
     margin: 30px;
 }
 
@@ -30,18 +25,23 @@ textarea:focus {
 }
 
 p{
-	color: green;
+	color: white;
+}
+
+body{
+	background: black;
 }
 
 button{
 	color: whitw;
-	background: red;
-	box-shadow: red;
+	background: black;
+	box-shadow: black;
 	margin-top: 10px;
 	margin-left: 15px;
 	margin-bottom: 20px;
-	border-radius: 15px;
+	border-radius: 20px;
 	border: none;
 	outline: none;
-	cursor: pointer;	
+	cursor: pointer;
+	width: 10px;	
 }
