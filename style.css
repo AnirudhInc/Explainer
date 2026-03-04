@@ -5,18 +5,19 @@ h1 {
 
 .container textarea {
     margin: 10px 60px 10px 45px;
-    border-color: blue;
     outline: none;
     border-radius: 20px;
     padding: 25px;
     background: transparent;
     border-style: solid;
-    box-shadow: 0 0 8px rgba(113,158,206,0.6);
+    box-shadow: white;
+    border-color: white;
+    color: white;
 }
 
 textarea:focus {
     outline: none;
-    border-color: transparent;
+    border-color: green;
 }
 
 ::placeholder {
@@ -33,15 +34,17 @@ body{
 }
 
 button{
-	color: whitw;
+	color: white;
 	background: black;
-	box-shadow: black;
+	box-shadow: grey;
 	margin-top: 10px;
 	margin-left: 15px;
 	margin-bottom: 20px;
 	border-radius: 20px;
-	border: none;
+	border: solid;
 	outline: none;
 	cursor: pointer;
-	width: 10px;	
+	width: 50px;
+	height: 28px;
+	border-color: white;
 }
