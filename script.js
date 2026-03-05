@@ -1,8 +1,8 @@
 const userInput = document.getElementById('user-input');
 const askButton = document.getElementById('My_Button');
 const responseText = document.getElementById('response');
-
-
+const userHelp = document.getElementById('HELP');
+const paragraph = document.getElementById('change-para');
 // 2. Trigger
 askButton.addEventListener('click',function(){
   let topic = userInput.value.toLowerCase().trim();
@@ -12,3 +12,6 @@ askButton.addEventListener('click',function(){
       responseText.innerHTML = "I don't know this topic yet i am learning yet. While i am learning you keep studying yourself."
     }
   });
+
+userHelp.addEventListener('click', function(){
+paragraph.innerHTML="Hello, Welcome to Explainer here you will get explainations from first principles just type your queries in the given textarea for the explaination you want.";});
