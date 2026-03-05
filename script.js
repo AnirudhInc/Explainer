@@ -15,3 +15,11 @@ askButton.addEventListener('click',function(){
 
 userHelp.addEventListener('click', function(){
 paragraph.innerHTML="Hello, Welcome to Explainer here you will get explainations from first principles just type your queries in the given textarea for the explaination you want.";});
+userInput.addEventListener('input', ()=>{
+if(userInput.value.length>0){
+askButton.classList.add('active-btn');
+}
+else{
+askButton.classList.remove('active-btn');
+}
+});

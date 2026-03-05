@@ -50,3 +50,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 }
+
+.active-btn{
+background: #00ff00! important;
+box-shadow: 0 0 20px #00ff00;
+transition: 0.3s;
+}
+
+
