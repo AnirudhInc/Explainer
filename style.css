@@ -26,6 +26,8 @@ box-shadow: 0 0 10px;
 
 .container{
 text-align: center;
+padding: 20px;
+margin: 20px;
 }
 
 ::placeholder{
